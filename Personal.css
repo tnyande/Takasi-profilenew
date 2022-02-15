@@ -42,8 +42,12 @@ h1{
 .intro{
     font-weight: bold;
     font-family: 'Supermercado One', cursive;
-    font-size: 300%;
+    font-size: 400%;
     
+  }
+
+  .intro-down {
+      font-size: 150%;
   }
 
 .top-cloud{
@@ -57,13 +61,29 @@ h1{
 
 .mountain{
     position: relative;
-    bottom: 15px;
+    bottom: 43px;
 }
 
+.profile {
+    width: 50%;
+    margin: auto;
+}
 
+.skills {
+    width: 50%;
+    margin: auto;
+}
+.headings {
+    color: rgb(139, 219, 129);
+}
 .work-img {
     width: 40%;
     margin-bottom: 5px;
+}
+
+.img-text {
+    text-align: left;
+    floats: right;
 }
 .middle-container{
     text-align: center;
